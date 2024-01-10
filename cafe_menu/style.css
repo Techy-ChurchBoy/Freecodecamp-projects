@@ -1,0 +1,84 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url("img/images (9).jpeg");
+    width:100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.main{
+    background: burlywood;
+    height:auto;
+    width:80%;
+    margin-top:20px;
+    border-radius: 15px;
+    box-shadow: 0px 3px 15px black;
+    display:flex;
+   align-items:center;
+    text-align:center;
+   flex-direction:column;
+   padding-bottom:20px;
+   opacity:0.9;
+    margin-bottom:20px;
+    
+}
+
+.header{
+    width:70%;
+    margin-top:30px;
+    text-align: center;
+    letter-spacing:px;
+    line-height:30px;
+    font-weight:bolder;
+    
+}
+
+.established {
+    margin-top:15px;
+}
+
+hr{
+    width:90%;
+    border:3px solid brown;
+    border-radius:5px;
+    
+    margin-top:10px;
+}
+
+.menu{
+    display: flex;
+    flex-direction:column;
+    text-align: center;
+    align-items:center;
+    margin-top:15px;
+    width:100%;
+    
+}
+
+.coffeeList, .pieList{
+    width:90%;
+    text-align:left;
+    
+    
+ }
+
+p{
+    display:flex;
+    justify-content:space-between;
+   padding: 5px;
+}
+
+.footer{
+    margin-top:20px;
+    
+}
+
+.address{
+    margin-top:10px;
+}
